@@ -1,0 +1,513 @@
+
+    /* font-family: "Ubuntu", serif; */
+
+    /* font-family: "Trade Winds", serif; */
+
+body{
+    background-color: #222224;
+}
+
+.container{
+    width: 1321px;
+    margin: 0 auto;
+    padding: 0 15px;
+    
+}
+
+.header_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+*{
+    font-family: "Ubuntu", serif;
+}
+
+.header{
+    background-color: #000;       
+    padding: 20px 0;    
+}
+
+.header_logo{
+    font-family: "Trade Winds", serif;
+    color: #F2C938;
+    margin-right: 174px;
+}
+
+.header_nav_list{
+    display: flex;
+    width: 500px;
+    justify-content: space-between;
+    margin-right: 40px;
+}
+
+.header_nav_item{
+
+}
+
+.header_nav_link{
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    text-transform: capitalize;
+    color: #fff;
+}
+
+.header_nav_link:hover{
+    color: #F2C938;
+}
+
+.header_contact_list{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header_contact_item{
+    align-items: center;
+    display: flex;
+    
+}
+
+.header_constact_tell{
+    font-weight: 400;
+    font-size: 20px;
+    color: #fff;
+}
+
+.header_constact_tell:hover{
+    color: #F2C938;
+}
+
+.header_contact_btn{
+    font-weight: 500;
+        font-size: 18px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+        padding: 12px 37px;
+        background-color: #F2C938;
+        border-radius: 5px;
+}
+
+
+
+.hero{
+    background-image: url(./img/background_image.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    padding: 175px 0;
+}
+
+.hero_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero_title{
+    width: 684px;
+    font-weight: 700;
+        font-size: 85px;
+        line-height: 120%;
+        text-transform: capitalize;
+        color: #fff;
+        margin-bottom: 20px;
+}
+
+.hero_subtitle {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    letter-spacing: 0.02em;
+    color: #fff;
+    width: 681px;
+    margin-bottom: 30px;
+}
+
+.hero_contact_list{
+    display: flex;
+}
+
+.hero_contact_item{
+    display: flex;
+    align-items: center;
+}
+
+.hero_contact_tell{
+    font-weight: 400;
+    font-size: 31px;
+    color: #fff;
+}
+
+.hero_contact_tell:hover{
+    color: #F2C938;
+}
+
+.hero_contact_btn{
+    font-weight: 500;
+    font-size: 18px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    padding: 12px 37px;
+    background-color: #F2C938;
+    border-radius: 5px;
+    margin-right: 38px;
+}
+
+.hero_customers{
+    margin-top: 430px;
+    display: flex;
+    backdrop-filter: blur(17.212190628051758px);
+    background: rgba(255, 255, 255, 0.35);
+    padding: 14px 26px;
+    align-items: center;
+    border-radius: 8px;
+}
+
+.hero_customers_img{
+    width: 114px;
+    height: 44px;
+    margin-right: 41px;
+}
+
+.hero_customers_number{
+    font-weight: 700;
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+
+}
+
+.hero_customers_text{
+    font-weight: 400;
+        font-size: 14px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #fff;
+        margin-right: 4px;
+}
+
+.hero_stars{
+    color: #F2C938;
+    text-align: center;
+}
+
+
+.services{
+    padding: 100px 0;
+    background-color: #222224;
+}
+
+.services_container{
+    display: flex;
+    align-items: center;
+}
+
+.services_list{
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 827px;
+    gap: 45px;
+    padding-right: 34px;
+    border-right: 1px solid #3d3d40;
+}
+
+.services_item{
+    width: 246px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.services_list_img{
+    width: 60px;
+    height: 60px;
+    margin-bottom: 30px;
+}
+
+.services_list_title{
+    font-weight: 700;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.services_list_subtitle{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    text-align: center;
+    color: #ededed;
+}
+
+.services_text_wrap{
+    padding-left: 34px;
+}
+
+.services_title{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 136%;
+    text-transform: uppercase;
+    color: #fff;
+    
+}
+
+.services_subtitle{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #fff
+}
+
+
+.tint{
+    background-color: #28282a;
+    position: relative;
+    padding: 120px 0 175px 0;
+
+}
+
+.tint_container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tint_title{
+    position: absolute;
+    left: -63px;    
+    transform: rotate(270deg);
+    opacity: 0.1;
+    font-weight: 700;
+    font-size: 136px;
+    text-transform: capitalize;
+    text-align: center;    
+}
+
+.tint_content_wrap{
+    padding-left: 96px;
+}
+
+.tint_subtitle{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    text-transform: capitalize;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.tint_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+    width: 536px;
+    margin-bottom: 50px;
+}
+
+.price_list{
+    border-radius: 15px;
+    background-color: #343436;
+    display: flex;  
+    margin-right: 52px;  
+}
+
+.price_item{
+    padding: 56px 40px 56px 40px;    
+}
+
+.price_item:nth-child(2) {
+    border-left: 0.68px solid #3d3d40;
+    border-right: 0.68px solid #3d3d40;
+}
+
+.tint_type{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;    
+    color: #969696;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.tint_price{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 113%;    
+    color: #fff;
+    text-align: center;
+    margin-bottom: 2px;
+}
+
+.tint_start_price{
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: line-through;    
+    color: #616161;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.tint_material{
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 166%;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 44px;
+}
+
+.tint_btn{
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 25px;
+    width: 175px;
+    height: 42px;
+    background-color: #222224;
+}
+
+
+.video_section{
+    position: relative;
+}
+
+.video_start{
+    position: absolute;
+    z-index: 999;
+    top: 317px;
+    left: 975px;
+}
+
+.video{    
+    width: 1915;
+    height: 780px;
+    margin-left: -300px; 
+}
+
+
+
+.paint{
+    background-color: #28282a;
+    position: relative;
+    padding: 150px 0 150px 0;
+}
+
+.paint_title{
+    position: absolute;
+    bottom: 300px;
+    left: -50px;
+    transform: rotate(270deg);
+    opacity: 0.1;
+    font-weight: 700;
+    font-size: 83px;
+    text-transform: capitalize;
+    
+    
+}
+
+.paint_container{
+    display: flex;
+    width: 1800px;
+    align-items: center;
+}
+
+.paint_subtitle{
+    font-weight: 700;
+    font-size: 46px;
+    line-height: 130%;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.paint_text_list{
+    width: 370px;    
+    
+}
+
+.paint_text_container{
+    padding-left: 250px;
+
+    
+}
+
+.paint_text{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #fff;
+}
+
+.paint_list{
+    display: flex;
+    gap: 65px;
+    margin-left: 75px;
+}
+
+.paint_item{
+    border-radius: 15px;
+    padding: 25px;
+    background-color: #343436;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.paint_img{
+    width: 170px;    
+    margin-bottom: 14px;
+}
+
+
+
+.paint_package{
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 135%;
+    text-align: center;
+    color: #969696;
+    margin-bottom: 15px;
+}
+
+.paint_price{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 111%;
+    text-align: center;
+    color: #fff;
+    
+}
+
+.paint_old_price{
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: line-through;
+    text-align: center;
+    color: #616161;
+}
+
+.paint_btn{
+    font-weight: 500;
+    font-size: 17px;
+    text-transform: capitalize;
+    text-align: center;
+    color: #fff;
+    border-radius: 5px;
+    padding: 11px 25px;
+    background-color: #222224;
+    margin-top: 14px;
+}
+
